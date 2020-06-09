@@ -9,11 +9,11 @@ export default function Routes(){
     return(
         <BrowserRouter>
             <Switch>
-                <Route patch='/' exact component = { Home } /> 
-                <Route patch='/repositories' component = { Repositories } />
+                <Route path='/' exact component = { Home } /> 
+                <Route path='/repositories' component = { Repositories } />
             </Switch>
         </BrowserRouter>
     )
 }
 
-//entender porque a rota de repositories não está funcionando. 
+//ATENÇÃO NA HORA DE ESCREVER AS ROTAS, pois é PATH e não PATCH
