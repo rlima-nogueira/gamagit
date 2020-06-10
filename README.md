@@ -1,4 +1,4 @@
-<img src="https://ik.imagekit.io/twayhlwajl/1_dDNpLKu_oTLzStsDTnkJ-g_lJi6RV9i3.png" alt="Buscar usuários no github">
+<img style="align: center" src="https://ik.imagekit.io/twayhlwajl/1_dDNpLKu_oTLzStsDTnkJ-g_lJi6RV9i3.png" alt="Buscar usuários no github">
 
 <p style="text-align: justify">Este projeto foi desenvolvido com <a link="https://github.com/facebook/create-react-app">Create React App</a>, nas aulas de React assistidas pela plataforma da Gama Academy pelo programa Hiring Coders.</p>
 
