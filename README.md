@@ -12,4 +12,7 @@ Segue a documentação de <a href="https://classic.yarnpkg.com/en/docs/getting-s
 <a href="https://styled-components.com/docs">Documentação Styled Components</a>
 
 
+Você pode acessar a aplicação online pelo seguinte link: 
+<a href=https://rlima-gamagit.netlify.app> https://rlima-gamagit.netlify.app/ </a>
+
 
