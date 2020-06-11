@@ -5,6 +5,7 @@ import { useHistory } from 'react-router-dom';
 export default function Repositories(){
     const history = useHistory();
     const [repositories, setRepositories] = useState([ ]);
+   
 
     
     // busca os repositorios dentro do local store e joga dentro da variavel
@@ -33,6 +34,8 @@ export default function Repositories(){
             }       
             </S.List>
         <S.LinkHome to="/"> Voltar para ao ínicio </S.LinkHome>
+
+        
     </S.Container>
     );
 }

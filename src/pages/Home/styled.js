@@ -1,15 +1,19 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-    
-    width: 100vw;
-    heigh: 100vh;
-   
+
+export const HomeContainer = styled.div`
     display: flex;
-  
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    heigh: 100vh;
+`
 
+export const Content = styled.div`
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 10%; 
 `;
 
@@ -28,6 +32,15 @@ export const Input = styled.input`
         box-shadow: none; 
     }
 `; 
+
+export const ErrorMsg = styled.span`
+    display: block;
+    color: red; 
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-family: sans-serif;
+` 
 
 export const Button = styled.button`
     height: 2rem;
