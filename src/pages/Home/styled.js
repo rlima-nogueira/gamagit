@@ -7,6 +7,7 @@ export const HomeContainer = styled.div`
     align-items: center;
     justify-content: center;
     heigh: 100vh;
+
 `
 
 export const Content = styled.div`
@@ -14,8 +15,21 @@ export const Content = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 10%; 
+    padding-top: 2rem; 
+   
 `;
+
+export const Cabecalho = styled.div`
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%; 
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #4B0082;
+` 
 
 
 export const Input = styled.input`

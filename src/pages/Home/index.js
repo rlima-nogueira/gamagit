@@ -35,6 +35,8 @@ export default function App(props) {
 
   return (
     <S.HomeContainer>
+      <S.Cabecalho> Bem vindo ao GamaGit </S.Cabecalho>
+
       <S.Content>       
         <S.Input className="usuarioInput" placeholder="Digite o nome do usuário no Github"value={usuario} onChange={ e => setUsuario(e.target.value)}/>
 
